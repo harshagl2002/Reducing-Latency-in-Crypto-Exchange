@@ -1,0 +1,21 @@
+{
+    "instances": {
+        "AMIs": {
+            "description": "List of AMIs to test: [Amazon Linux 2023, Red Hat Enterprise Linux 9, Ubuntu Server 22.04 LTS]",
+            "values": ["ami-012261b9035f8f938", "ami-0a3299a47e8a9111b", "ami-09a81b370b76de6a2"]
+        },
+        "regions": {
+            "description": "List of regions and their specific subnets",
+            "details": {
+                "ap-northeast-1": {
+                    "description": "Tokyo region. The zone-a subnet has been tested to be the best.",
+                    "subnets": ["subnet-0dcfd56c0520d11a6"]
+                }
+            }
+        },
+        "instanceType": {
+            "description": "List of instance types to test.",
+            "values": ["t2.micro", "t3.medium", "t3.large", "c6in.2xlarge", "c6i.xlarge", "c6i.2xlarge"]
+        }
+    }
+}

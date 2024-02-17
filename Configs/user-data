@@ -1,0 +1,24 @@
+#!/bin/bash
+# Redirect stdout and stderr to a log file
+exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1
+yum update -y
+# Install Python 3
+yum install -y python3
+# Install pip for Python 3
+yum install -y python3-pip
+# Install Git
+yum install -y git
+# Install tmux
+yum install -y tmux
+
+# Fetch the code from S3
+aws s3 cp s3://zhicheng-instance-test/group_01_project.zip /home/ec2-user
+cd /home/ec2-user
+# Unzip the code with confirmation
+unzip -o group_01_project.zip
+# Go to program folder
+cd group_01_project
+# Install required Python packages
+pip3 install -r requirements.txt
+# Run the Python code
+python3 latency_test_main.py --client requests --keep_alive 1 --process_bind 1 --time 25

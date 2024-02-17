@@ -1,0 +1,5 @@
+.vscode/launch.json
+binance_configs.json
+boto3_demo/__pycache__
+python_api_tests/__pycache__
+Configs/accessKeys.csv

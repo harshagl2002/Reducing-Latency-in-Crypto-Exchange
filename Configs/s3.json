@@ -1,0 +1,6 @@
+{
+    "bucket_names": {
+        "latency_script": "zhicheng-instance-test",
+        "latency_results": "latency-results"
+    } 
+}

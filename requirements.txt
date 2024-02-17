@@ -1,0 +1,7 @@
+numpy
+pandas
+boto3
+requests
+urllib3
+httpx
+psutil
