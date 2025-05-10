@@ -1,33 +1,5 @@
 # Reducing Latency in Crypto Exchange Networks - A Focus on Binance
 
-[toc]
-
-## Teammates 
-
-#### Zhicheng Tang
-
-I am Zhicheng Tang, currently pursuing a Master's degree in Industrial Engineering at the University of Illinois at Urbana-Champaign. My university study covers math, statistics, computer science, economics and finance. I have practical experiences in data analysis, quantitative research, signal generating, machine learning, and arbitrage strategy development. I am proficient in multiple programming languages such as Python, C++, R, SQL and MATLAB. Presently, I am gaining hands-on experiences as a quant developer intern at a California-based hedge fund. Prior to this, I have had the opportunity to work with leading tech companies in China including Huawei, Baidu and Tencent.
-
-Feel free to reach out to me through email aaront596@icloud.com or [LinkedIn](https://www.linkedin.com/in/zhichengtang/)
-
-#### Harsh Agarwal
-
-I am a senior majoring in Computer Science. I am passionate about software development, particularly developing low latency systems for use in finaicial markets. I am well versed with core software development tools including data structures, algorithms, system design, distributed systems, and computer architecture. You can find me here on LinkedIn - https://www.linkedin.com/in/harshagl2002/
-
-#### Shruthik Musukula
-
-I am Shruthik Musukula and I am a current Masters of Computer Science (MCS) student at the University of Illinois at Urbana-Champaign. I am particularly interested in the development of large-scale distributed systems, database systems, and cloud computing infrastructure, much of which is applicable to the high frequency trading world. I am proficient in Python, C/C++, and Java and have core experience working in a research setting as well as in the industry as a Software Engineering Intern at Salesforce, Inc.
-
-Currently, I am looking for winter internship (Jan - May 2024) and new grad opportunities! Feel free to reach out to me at srm14@illinois.edu and connect with me on LinkedIn - https://www.linkedin.com/in/shruthikmusukula/.
-
-#### Yihong Jin
-
-I am Yihong Jin, a Master's student in Computer Engineering at the University of Illinois at Urbana-Champaign. I am interested in software engineering and have experience working in industry as a software development intern at Amazon Web Services.
-
-I am proficient in Java, C/C++, and Go, and I am excited to leverage my skills to create highly available and scalable systems. My interests include infrastructure, distributed system and cloud computing.
-
-Now I am looking for internship opportunities, especially for Software Development Engineer roles. If you would like to discuss any opportunities or have any inquiries, please feel free to reach out to me at yihongj3@illinois.edu.
-
 ## Project Overview
 
 In this project, we focus on two key areas: firstly, automating AWS instance management, including initiation, termination, and storage, couldpled with wrapped APIs, latency testing, and analytics scripts. Secondly, we utilize the automated infrastructure to experiment with various hardware configurations, system settings, and AWS features, for example, Linux versions, kernel parameters and instance types. Additionally, we explored the potential benefits of using the new AWS placement group feature to collocated the instances within the same availability zone and region.
